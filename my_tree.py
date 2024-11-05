@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import random
-from decision_tree import DecisionTree
+from decision_tree_random import DecisionTree
 
 LICZBA_DRZEW = 10
 LICZBA_STRAPOW = LICZBA_DRZEW

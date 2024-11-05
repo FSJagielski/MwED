@@ -2,7 +2,7 @@ import numpy as np
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
-from decision_tree import DecisionTree
+from decision_tree_random import DecisionTree
 
 iris = datasets.load_iris()
 X = iris.data
